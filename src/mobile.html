@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="${keywords}" />
+        <meta name="description" content="${description}" />
+
+        <!-- Micro Data (itemprop): http://schema.org/docs/gs.html#microdata_itemprop -->
+        <meta itemprop="name" content="${title}" />
+        <meta itemprop="description" content="${description}" />
+        <meta itemprop="image" content="${imageUrl}" />
+
+        <!-- Open Graph (og): http://ogp.me -->
+        <meta property="og:title" content="${title}" />
+        <meta property="og:type" content="${pageType}" />
+        <meta property="og:url" content="${shareUrl}" />
+        <meta property="og:description" content="${description}" />
+        <meta property="og:image" content="${imageUrl}" />
+
+        <!-- 搜索引擎抓取 -->
+        <meta name="robots" content="index,follow" />
+
+        <!-- 防止页面在 iframe 中被加载 -->
+        <meta http-equiv="windows-Target" content="_top" />
+
+        <!-- 启用 WebApp 全屏模式, 删除苹果默认的工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- 设置苹果工具栏颜色 -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <!-- 添加到主屏后的标题 (iOS 6 新增) -->
+        <meta name="apple-mobile-web-app-title" content="${title}" />
+
+        <!-- 忽略页面中的数字识别为电话 -->
+        <meta name="format-detection" content="telephone=no" />
+
+        <title>${title}</title>
+
+        <!-- favicon, 一般在域名根路径放置 favicon.ico 文件 -->
+        <link rel="shortcut icon" type="image/ico" href="${faviconUrl}" />
+
+        <!-- iOS 图标 -->
+        <link rel="apple-touch-icon" sizes="57x57" href="${iosicon57Url}" />
+        <link rel="apple-touch-icon" sizes="72x72" href="${iosicon72Url}" />
+        <link rel="apple-touch-icon" sizes="114x114" href="${iosicon114Url}" />
+        <link rel="apple-touch-icon" sizes="144x144" href="${iosicon144Url}" />
+        <link rel="apple-touch-icon" sizes="152x152" href="${iosicon152Url}" />
+    </head>
+    <body>
+    </body>
+</html>
