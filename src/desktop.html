@@ -30,10 +30,35 @@
         <title>${title}</title>
 
         <!-- IE 兼容 -->
+
         <!--[if lt IE 9]>
         <script src="//path/to/es5-shimsham.js" charset="utf-8"></script>
         <script src="//path/to/html5shiv.min.js" charset="utf-8"></script>
         <script src="//path/to/json2.js" charset="utf-8"></script>
+        <![endif]-->
+
+        <!--[if IE]>
+        You are using IE.
+        <![endif]-->
+
+        <!--[if !IE]-->
+        You are not using IE.
+        <!--[endif]-->
+
+        <!--[if IE 7]>
+        You are using IE 7.
+        <![endif]-->
+
+        <!--[if !(IE 7)]>
+        You are not using IE 7.
+        <![endif]-->
+
+        <!--[if gte IE 7]>
+        You are using IE 7 or greater.
+        <![endif]-->
+
+        <!--[if (gte IE 5.5)&(lt IE 7)]>
+        You are using IE 5.5 or IE 6.
         <![endif]-->
     </head>
     <body>
